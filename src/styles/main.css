@@ -1,0 +1,498 @@
+.theme-pure {
+  --theme-page: hsl(223, 9%, 66%);
+  --theme-page-text: hsl(223, 10%, 19%);
+  --theme-page-text-light: hsl(223, 6%, 62%);
+  --theme-page-instructions-text: #3b4559;
+  --theme-page-instructions-background: rgba(200,200,200,0.4);
+  --theme-modal: #ffffff;
+
+  --theme-color-sidebar: hsl(223, 15%, 19%);
+
+  --theme-color-primary: hsl(11, 85%, 49%);
+  --theme-color-primary-light: hsl(223, 53%, 96%);
+  --theme-color-primary-dark: hsl(223, 10%, 19%);
+  --theme-color-complimentary: hsl(11, 85%, 49%);
+
+  --theme-sidebar-menu-background: hsl(223, 20%, 11%);
+  --theme-sidebar-menu-color: #fff;
+
+  --theme-intro-gradient-1: rgba(255,255,255,0);
+  --theme-intro-gradient-2: rgba(255,255,255,0.95);
+
+  --theme-header-text: var(--theme-color-primary-dark);
+  --theme-caption-text: #000;
+  --theme-caption-read: #8795a1;
+  --theme-announcements-gradient-1: rgba(255,255,255,0);
+  --theme-announcements-gradient-2: rgba(255,255,255,0.95);
+
+  --theme-line-separator: #dae1e7;
+  --theme-wallet-overview-border: #dae1e7;
+
+  --theme-table-row-hover: hsl(11, 12%, 98%);
+  --theme-wallet-hover: var(--theme-table-row-hover);
+  --theme-wallet-hover-border: hsl(11, 58%, 75%);
+
+  --theme-transaction-sent: #fef4f5;
+  --theme-transaction-sent-arrow: #e51317;
+  --theme-transaction-received: #e3fcec;
+  --theme-transaction-received-arrow: #2db761;
+  --theme-send-circle-second-signature: #6c5494;
+  --theme-send-circle-second-signature-text: #3b2d54;
+  --theme-send-circle-register-delegate: #d24562;
+  --theme-send-circle-register-delegate-text: #ffffff;
+  --theme-send-circle-vote: #e393a6;
+  --theme-send-circle-vote-text: #954458;
+
+  --theme-transaction-detail-gradient1: hsl(223, 18%, 16%);
+  --theme-transaction-detail-gradient2: hsl(223, 15%, 21%);
+  --theme-transaction-detail-highlight: var(--theme-sidebar-menu-background);
+  --theme-transaction-detail-arrow: #4d536c;
+
+  --theme-wallet-new-selected: #282a2b;
+  --theme-wallet-new-unselected: #9ea7bc;
+  --theme-wallet-sign-verify-message-text: #c5cfde;
+  --theme-wallet-grid-shadow: 0 5px 30px rgba(124,138,192,0.22);
+
+  --theme-feature: white;
+  --theme-feature-item-text: hsl(223, 7%, 57%);
+  --theme-feature-item-hover: hsl(223, 38%, 96%);
+  --theme-feature-item-alternative: hsl(223, 38%, 96%);
+  --theme-feature-item-alternative-text: hsl(223, 7%, 52%);
+  --theme-feature-item-hover-text: hsl(223, 11%, 82%);
+  --theme-feature-item-selected: transparent;
+  --theme-feature-item-selected-text: var(--theme-page-text-light);
+  --theme-feature-item-indicator: var(--theme-color-primary);
+
+  --theme-secondary-feature: #f7f9fb;
+
+  --theme-button-special-choice: var(--theme-color-primary);
+  --theme-button-special-choice-text: #fff;
+
+  --theme-heading-background: #343956;
+  --theme-heading-text: hsla(223, 33%, 81%, 1);
+
+  --theme-chart-background: #ffffff;
+  --theme-chart-price: var(--theme-page-text);
+
+  --theme-button: hsl(11, 5%, 96%);
+  --theme-button-active: #c5dbed;
+  --theme-button-text: hsl(11, 26%, 23%);
+  --theme-button-light: #f1f5f8;
+  --theme-button-light-text: #8795a1;
+  --theme-button-inner-box: hsl(11, 13%, 94%);
+  --theme-button-inner-box-hover: hsl(11, 88%, 45%);
+  --theme-action-button: #eff0f6;
+  --theme-action-button-text: #8d93ad;
+  --theme-action-button-text-hover: #789fba;
+  --theme-option-button: #3d456d;
+  --theme-option-button-hover: #cc5e60;
+  --theme-option-button-text: hsl(11, 26%, 23%);
+  --theme-switch-button: var(--theme-button);
+  --theme-option-heading-button: var(--theme-sidebar-menu-background);
+  --theme-option-heading-button-hover: var(--theme-color-primary);
+  --theme-option-heading-button-text: var(--theme-sidebar-menu-color);
+  --theme-input-toggle-choice: #f1f5f8;
+  --theme-input-toggle-choice-text: #606f7b;
+  --theme-input-field-border: #b9c2d7;
+  --theme-modal-footer-button: #e7d28e;
+  --theme-modal-footer-button-text: #b3a36f;
+
+  --theme-explanation-background: #e2edf8;
+  --theme-explanation-text: #7f95ab;
+
+  --theme-settings: white;
+  --theme-settings-hover: #f0f1f8;
+  --theme-settings-sub: #2d3747; /* NOTE: not used on light theme */
+  --theme-settings-button: #2d3747; /* NOTE: not used on light theme */
+  --theme-settings-heading: #2d3747;
+  --theme-settings-border: hsl(223, 17%, 94%);
+  --theme-settings-text: #8a91b8;
+  --theme-settings-text-hover: #8a91b8;
+  --theme-settings-switch: var(--theme-button);
+  --theme-settings-control-title: #2d3747;
+
+  --theme-voting-banner-background: #e2edf8;
+  --theme-voting-banner-text: #7f95ab;
+  --theme-voting-banner-button: #cfddec;
+  --theme-voting-banner-button-hover: #b1c9e2;
+  --theme-voting-banner-button-text: #90a9c6;
+  --theme-voting-banner-button-text-hover: #6785a9;
+
+  --theme-fee-gradient-start: var(--theme-modal);
+  --theme-fee-gradient-end: rgba(0,124,255,0.20);
+  --theme-fee-handler-outside: var(--theme-button-text);
+  --theme-fee-handler-inside: var(--theme-modal);
+  --theme-fee-range-track: var(--theme-page-text-light);
+  --theme-fee-range-track-active: var(--theme-button-text);
+  --theme-fee-range-shadow: rgba(9, 100, 228, 0.34);
+
+}
+
+.theme-pure {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.theme-pure a,
+.theme-pure a:hover {
+  color: hsl(11, 26%, 23%);
+}
+
+.theme-pure h1,
+.theme-pure h2,
+.theme-pure h3,
+.theme-pure h4 {
+  color: var(--theme-header-text) !important;
+}
+
+.theme-pure .text-blue {
+  color: var(--theme-page-text);
+}
+
+.theme-pure .bg-blue {
+  background-color: var(--theme-color-complimentary);
+}
+
+.theme-pure .bg-theme-feature {
+  background-color: var(--theme-feature);
+}
+
+
+.theme-pure .App__main {
+  background: var(--theme-page) !important;
+}
+
+.theme-pure .App__container {
+  margin: 1rem 0 !important;
+  box-shadow: 0 22px 40px hsla(223, 71%, 14%, 0.12);
+}
+
+.theme-pure .App__page {
+  border-radius: 0 .5rem .5rem 0;
+}
+
+.theme-pure .AppSidemenu .MenuNavigationItem {
+  /* transition: background-color .3s ease, color .3s ease; */
+  transition: none;
+}
+
+.theme-pure .AppSidemenu .MenuNavigationItem__badge {
+  right: 1rem;
+}
+
+.theme-pure .AppSidemenu--vertical {
+  width: 15.5rem;
+  margin: 0;
+  background-color: var(--theme-color-sidebar);
+  padding: 1.5rem;
+  border-radius: .5rem 0 0 .5rem;
+}
+
+.theme-pure .AppSidemenu--horizontal {
+  height: auto;
+  background-color: var(--theme-color-sidebar);
+}
+
+.theme-pure .AppSidemenu--horizontal .AppSidemenu__container__scrollable {
+  background-color: var(--theme-color-sidebar);
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__container__scrollable {
+  padding: 1rem 0 0;
+  background: none;
+  overflow: visible;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__logo {
+  position: relative;
+  align-self: flex-start;
+  padding: 0;
+  background: none;
+  text-decoration: none;
+}
+
+.theme-pure .AppSidemenu--horizontal .AppSidemenu__logo {
+  background: none;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__logo::after {
+  content: "ARK.io";
+  color: #fff;
+  font-size: 1.4rem;
+  margin-left: 1.25rem;
+  font-weight: 600;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__logo img {
+  width: 3.25rem;
+}
+
+.theme-pure .AppSidemenu__item .MenuNavigationItem {
+  transition: background-color .3s ease, color .3s ease, box-shadow .3s ease;
+}
+
+.theme-pure .AppSidemenu__item.MenuNavigationItem--active,
+.theme-pure .AppSidemenu__item.MenuNavigationItem--active:hover {
+  background: var(--theme-sidebar-menu-background) !important;
+  color: var(--theme-sidebar-menu-color) !important;
+  /* box-shadow: inset 2px 0 var(--theme-color-primary); */
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__item {
+  justify-content: flex-start;
+  padding: 0 1rem;
+  height: 3rem;
+  border-radius: .1875rem;
+  font-weight: 600;
+}
+
+.theme-pure .AppSidemenu--horizontal .AppSidemenu__item {
+  height: 100%;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__item > div:last-child {
+  width: auto;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__item::after {
+  content: attr(title);
+  white-space: nowrap;
+  margin-left: 1rem;
+}
+
+.theme-pure .MenuNavigationItem__border,
+.theme-pure .MenuNavigationItemHorizontal__border {
+  display: none;
+}
+
+.theme-pure .AppSidemenuOptionsSettings,
+.theme-pure .AppSidemenuNetworkStatus,
+.theme-pure .AppSidemenuPlugins {
+  left: 100%;
+}
+
+.theme-pure .MarketChartWrapper {
+  border-top-left-radius: 0;
+}
+
+.theme-pure .MarketChartHeader {
+  align-items: center;
+}
+
+.theme-pure .MarketChartHeader > div {
+  margin-top: 0;
+}
+
+.theme-pure .MarketChartHeader__button {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.theme-pure .MarketChartHeader__button:hover {
+  opacity: 1;
+  background-color: transparent;
+  color: var(--theme-color-primary);
+}
+
+.theme-pure .bg-theme-button-special-choice {
+  background-color: var(--theme-button-special-choice);
+  color: var(--theme-button-special-choice-text);
+}
+
+.theme-pure .bg-theme-chart-background {
+  border-bottom: 1px solid var(--theme-settings-border);
+}
+
+.theme-pure .WalletGrid__wallet__name {
+  color: var(--theme-color-primary-dark);
+}
+
+.theme-pure .WalletAll__heading,
+.theme-pure .ContactAll__heading,
+.theme-pure .PluginManager__heading {
+  margin-bottom: 0;
+  border-radius: 0 .5rem 0 0;
+  border-bottom: 1px solid var(--theme-feature-item-alternative);
+}
+
+.theme-pure .App__page > .PluginManager__banner {
+  border-radius: 0;
+}
+
+.theme-pure .App__page > .bg-theme-feature {
+  border-radius: 0 0 .5rem 0;
+}
+
+.theme-pure .Dashboard > .bg-theme-feature {
+  /* border-top-right-radius: .5rem; */
+  border-radius: 0;
+  margin-right: 0;
+}
+
+.theme-pure .MarketChartHeader__button:hover {
+  opacity: 1;
+}
+
+.theme-pure .Dashboard .Dashboard__wallets {
+  border-radius: 0 0 .5rem;
+  border-left: 1px solid var(--theme-settings-border);
+}
+
+.theme-pure .Dashboard__wallets > div:first-child {
+  margin-top: 0;
+}
+
+.theme-pure .Dashboard__wallets__button {
+  margin: 0;
+}
+
+.theme-pure .Dashboard__wallets__button > a {
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.theme-pure .Dashboard__wallets__button:first-child {
+  border-right-width: 1px;
+}
+
+.theme-pure .Dashboard__wallets__button > a:hover > .rounded-full,
+.theme-pure .WalletButton__ledger-settings > a:hover > .rounded-full,
+.theme-pure [class^="WalletButton__"] > a:hover > .rounded-full{
+  background-color: var(--theme-color-primary);
+  color: #fff;
+  opacity: 1;
+}
+
+.theme-pure .WalletGrid {
+  grid-gap: 15px;
+}
+
+.theme-pure .WalletGrid__wallet {
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: .5rem;
+  /* box-shadow: 0 2px 2px rgba(0,0,0,.05); */
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .1);
+  transition: border-color .3s, background-color .3s, box-shadow .3s;
+}
+
+.theme-pure .WalletGrid__wallet:hover {
+  background-color: var(--theme-wallet-hover);
+  border-color: var(--theme-wallet-hover-border);
+  transform: none;
+  box-shadow: 0 2px 7px hsla(11, 86%, 26%, 0.05),
+              0 12px 21px hsla(11, 86%, 26%, 0.05);
+}
+
+.theme-pure .WalletGrid__wallet:not(:hover)::after {
+  display: none;
+}
+
+.theme-pure .WalletGrid__wallet__wrapper {
+  border: 0;
+}
+
+.theme-pure .WalletHeading {
+  border-radius: 0;
+}
+
+.theme-pure .WalletHeading :not(.Identicon) > svg rect {
+  /* fill: var(--theme-transaction-detail-highlight); */
+  fill: none;
+}
+
+/* Button overrides */
+
+.theme-pure .blue-button:hover,
+.theme-pure .blue-small-button:hover,
+.theme-pure .WalletNew__ButtonReload-colorClass:hover,
+.theme-pure .ContactAll__CreateButton:hover,
+.theme-pure .PluginManagerButtonInstallSource:hover {
+  background-color: var(--theme-color-primary);
+  box-shadow: 0 5px 15px hsla(359, 33%, 40%, 0.19);
+}
+
+.theme-pure .PluginManagerButtonInstallSource:hover .PluginManagerButtonInstallSource__icon,
+.theme-pure .ContactAll__CreateButton:hover .ContactAll__CreateButton__icon {
+  background-color: var(--theme-button-inner-box-hover) !important;
+}
+
+.theme-pure .ButtonLayout {
+  color: var(--theme-option-button-text) !important;
+}
+
+
+.theme-pure .ButtonLayout {
+  color: var(--theme-page-text-light);
+}
+
+.theme-pure .ButtonLayout:disabled {
+  color: var(--theme-color-primary-dark);
+}
+
+.theme-pure .ButtonLayout:hover {
+  color: var(--theme-color-primary-dark);
+  background: none;
+  opacity: 1;
+}
+
+.theme-pure .hover\:bg-theme-feature-item-alternative:hover {
+  color: var(--theme-color-primary-dark);
+  background-color: var(--theme-page);
+}
+
+.theme-pure .MenuDropdownItem__container {
+  border-bottom: 0;
+}
+
+.theme-pure .MenuDropdown {
+  box-shadow: 0 0px 0px 1px rgba(0,0,0,.04), 0 2px 4px 0 rgba(0, 0, 0, .05), 0 8px 16px rgba(0,0,0,0.05);
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__avatar {
+  position: relative;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__avatar__container {
+  margin-top: 3rem;
+  justify-content: flex-start;
+  cursor: auto;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__avatar__container:hover {
+  opacity: 1;
+}
+
+.theme-pure .ProfileAvatar__image {
+  position: relative;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__avatar__dots {
+  right: -0.75rem;
+}
+
+.theme-pure .AppSidemenu--vertical .AppSidemenu__avatar:hover .AppSidemenu__avatar__dots {
+  color: var(--theme-color-primary-dark);
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .1), 0 2px 4px 0 rgba(0, 0, 0, .05), 0 6px 12px 0 rgba(0, 0, 0, .05);
+}
+
+.theme-pure .bg-theme-settings > a {
+  color: #8795a1;
+}
+
+.theme-pure .bg-theme-settings > a:hover {
+  color: #fff;
+}
+
+.theme-pure .WalletSidebar__wallet.MenuNavigationItem--active {
+  box-shadow: inset -3px 0 var(--theme-color-primary);
+}
+
+/* Import wallet */
+
+.theme-pure .WalletNew__instructions,
+.theme-pure .ProfileNew__instructions {
+  margin: 0 1rem;
+}
