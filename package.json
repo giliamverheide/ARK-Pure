@@ -1,13 +1,19 @@
 {
   "name": "@giliam/ark-pure",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A modern theme with an expanded sidebar for the ARK desktop wallet.",
   "main": "src/index.js",
   "author": "Giliam Verheide",
   "license": "MIT",
   "desktop-wallet": {
     "title": "Pure Theme",
-    "logo": "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/logo.png",
+    "logo": "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/logo.png",
+    "images": [
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-1.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-2.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-3.jpg",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-4.jpg"
+    ],
     "categories": [
       "theme"
     ],
