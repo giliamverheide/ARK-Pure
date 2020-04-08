@@ -9,10 +9,10 @@
     "title": "Pure Theme",
     "logo": "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/logo.png",
     "images": [
-      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-1.jpg",
-      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-2.jpg",
-      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-3.jpg",
-      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-4.jpg"
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-1.png",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-2.png",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-3.png",
+      "https://raw.githubusercontent.com/giliamverheide/ark-pure/master/images/preview-4.png"
     ],
     "categories": [
       "theme"
